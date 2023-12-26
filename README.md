@@ -1,2 +1,9 @@
-# Music-Class-Site
-Working Progress school
+### Music Class Site
+
+Working Progress school site model 🎙️
+
+
+
+
+
+
