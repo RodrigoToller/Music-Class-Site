@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+
+
+
+body {
+    background: #222;
+    color: #fff;
+    font-family: 'Arapey', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+#margin-music{
+
+    display: flex;
+    
+}
+
+  #title {
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  #microfone-logo{
+
+    width: 15vh;
+    
+  }
+  li {
+    display: inline-block;
+    margin: 20px; 
+  }
+  
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    color: #9c3976;
+    transition: 0.3;
+  }
+  
+  #sign-in-btn {
+    border: 2px solid #9c3976;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  #sign-in-btn:hover {
+    background: #9c3976;
+    color: #fff;
+  }
+  
+  
+  h1 {
+    font-weight: 200;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 56px;
+    line-height: 10px;   
+  }
+  
+  h2 span {
+    color: #9c3976;
+  }
+  
+  p {
+    line-height: 20px;
+    max-width: 500px;  
+  }
+  
+  img {    
+    width: 600px;
+    padding-left: 80px; 
+    border-radius: 150px;
+
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  #submit-btn {
+    height: 50px;
+    width: 50%;
+    background: #9c3976;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #submit-btn:hover {
+    cursor: pointer;
+  }
+  
+  input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+  }
